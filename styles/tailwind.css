@@ -62,6 +62,14 @@ li.check:before {
   @apply bg-orange-500 rounded-l-full rounded-r-full w-12;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
 /* purgecss end ignore */
 @tailwind utilities;
 /* purgecss start ignore */
